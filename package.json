@@ -7,6 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Vincent Engler (processoriented@gmail.com)",
+  "repository": {
+    "url": "https://github.com/Processoriented/postmanClone.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "snowpack": "^3.7.1"
+  }
 }
