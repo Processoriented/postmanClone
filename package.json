@@ -2,9 +2,10 @@
   "name": "postmanClone",
   "version": "1.0.0",
   "description": "Clone of Postman inspired by Web Dev Simplified",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "snowpack dev"
+    "start": "snowpack dev",
+    "start-electron": "electron ."
   },
   "keywords": [],
   "author": "Vincent Engler (processoriented@gmail.com)",
@@ -20,6 +21,7 @@
     "@popperjs/core": "^2.9.2",
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
+    "electron": "^13.1.6",
     "pretty-bytes": "^5.6.0",
     "typescript": "^4.3.5"
   },
